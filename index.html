@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AESA Technology - Reparación de Celulares</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- Header -->
+  <header>
+    <div class="logo">📱 AESA Technology 💻</div>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#faq">Preguntas frecuentes</a></li>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- Hero -->
+  <section class="hero" id="inicio">
+    <h1>Reparaciones rápidas y confiables</h1>
+    <p>Más de 10 años devolviendo vida a tus dispositivos</p>
+    <a href="#contacto" class="btn">Solicitar reparación</a>
+  </section>
+
+  <!-- Servicios -->
+  <section class="servicios" id="servicios">
+    <h2 class="animado">Servicios</h2>
+    <div class="cards">
+      <div class="card animado">📱 <h3>Cambio de pantalla</h3></div>
+      <div class="card animado">🔋 <h3>Reemplazo de batería</h3></div>
+      <div class="card animado">💾 <h3>Software y desbloqueo</h3></div>
+      <div class="card animado">💧 <h3>Limpieza por humedad</h3></div>
+    </div>
+  </section>
+
+<!-- Testimonios -->
+  <section class="testimonios" id="testimonios">
+    <h2 class="animado">Testimonios</h2>
+    <div class="cards">
+      <div class="card animado">
+        <p>"Me salvaron el celular, muy rápidos y atentos. ¡Gracias!"</p>
+        <strong>-- Marcos G.</strong>
+      </div>
+      <div class="card animado">
+        <p>"Excelente trabajo. El equipo quedó como nuevo. Muy recomendado."</p>
+        <strong>-- Julieta V.</strong>
+      </div>
+      <div class="card animado">
+        <p>"Atención muy cordial, y además me dieron garantía. Volveré seguro."</p>
+        <strong>-- Carla P.</strong>
+      </div>
+    </div>
+  </section>
+
+<!-- Preguntas Frecuentes -->
+  <section class="faq" id="faq">
+    <h2 class="animado">Preguntas Frecuentes</h2>
+    <div class="faq-item animado">
+    <button class="pregunta">¿Cuánto demora una reparación?</button>
+    <div class="respuesta">
+      <p>Depende del daño, pero muchas reparaciones se hacen en menos de 24 horas.</p>
+    </div>
+  </div>
+
+    <div class="faq-item animado">
+    <button class="pregunta">¿Ofrecen garantía por los trabajos?</button>
+    <div class="respuesta">
+      <p>Sí, todas las reparaciones incluyen garantía escrita por defectos de repuesto o servicio.</p>
+    </div>
+  </div>
+
+  <div class="faq-item animado">
+    <button class="pregunta">¿Puedo llevar cualquier modelo de celular?</button>
+    <div class="respuesta">
+      <p>Trabajamos con todas las marcas y modelos del mercado, desde los más antiguos hasta los más nuevos.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Sobre mi -->
+  <section class="sobre-mi" id="sobre-mi">
+    <h2 class="animado">Sobre mí</h2>
+    <p>Soy Alejandro, técnico especializado en reparación de celulares hace más de 10 años. Me dedico con pasión a solucionar cualquier problema que tengan tus dispositivos.</p>
+  </section>
+
+<!-- Mapa -->
+  <div class="contenedor-mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d204.90204078333167!2d-58.28286051381301!3d-34.744692613272576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a32d00701d68ed%3A0xf35b5b98e6170b39!2sAESA%20Reparaci%C3%B3n%20de%20PC%20y%20Celulares!5e0!3m2!1ses!2sar!4v1751919082687!5m2!1ses!2sar" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+<!-- Contacto -->
+  <section class="contacto" id="contacto">
+    <h2 class="animado">Contacto</h2>
+    <form class="formulario">
+    <input type="text" placeholder="Nombre completo" required />
+    <input type="email" placeholder="Correo electrónico" required />
+    <textarea placeholder="Tu mensaje..." rows="5" required></textarea>
+    <button type="submit">Enviar mensaje</button>
+    </form>
+    <div class="modal" id="modal">
+    <div class="modal-content">
+      <p>¡Gracias por tu mensaje, intentaremos responder a la brevedad! 📬</p>
+      <button id="cerrar-modal">Cerrar</button>
+    </div>
+    </div>
+
+    <p>📞 Teléfono: (011)15-2321-5673</p>
+    <p>📧 Email: lale.alonso7@gmail.com</p>
+    <p>📍 Zona: Quilmes Oeste, Buenos Aires</p>
+  </section>
+
+<!-- Footer -->
+  <footer>
+    <p>&copy; <span id="year"></span> AESA Technology - Todos los derechos reservados</p>
+  </footer>
+
+  <a href="https://wa.me/5491123215673" class="whatsapp" target="_blank" title="Escribime por WhatsApp">
+  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="whatsapp-icon"></a>
+  <script src="script.js"></script>
+</body>
+</html>
