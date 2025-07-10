@@ -310,6 +310,8 @@ footer {
 
 /* Preguntas frecuentes */
 
+/* Preguntas frecuentes */
+
 .faq {
   max-width: 800px;
   margin: 60px auto;
@@ -322,6 +324,7 @@ footer {
   border: 1px solid #333;
   border-radius: 10px;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 
 .pregunta {
@@ -342,16 +345,19 @@ footer {
 }
 
 .respuesta {
-  padding: 15px;
   background-color: #222;
-  display: none;
   color: #ccc;
-  animation: fadeIn 0.3s ease-in-out;
+  padding: 0 15px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease, padding 0.3s ease;
 }
 
 .faq-item.activa .respuesta {
-  display: block;
+  padding: 15px;
+  max-height: 200px; /* Ajustá este valor si tu contenido es más largo */
 }
+
 
 /* Mapa */
 
@@ -371,3 +377,5 @@ footer {
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 }
+
+
